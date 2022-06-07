@@ -1,0 +1,34 @@
+{
+  "name": "this-book-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/app.js",
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc -w",
+    "build": "tsc",
+    "start": "NODE_ENV=production node .",
+    "dev": "nodemon node .",
+    "serve": "NODE_ENV=development node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.26",
+    "nodemon": "^2.0.15",
+    "tslint": "^6.1.3"
+  }
+}
